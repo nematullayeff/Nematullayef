@@ -504,6 +504,9 @@ video {
 .mt-32 {
   margin-top: 8rem;
 }
+.mb-32 {
+  margin-bottom: 8rem;
+}
 .flex {
   display: flex;
 }
@@ -617,6 +620,9 @@ video {
 }
 .pt-14 {
   padding-top: 3.5rem;
+}
+.pb-32 {
+  padding-bottom: 8rem;
 }
 .text-center {
   text-align: center;
