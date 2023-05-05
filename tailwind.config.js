@@ -11,9 +11,11 @@ module.exports = {
         '94': '94px',
         '758': '758px',
         '511': '511px',
+        '355': '355px',
       },
       maxWidth: {
         'base': '1080px',
+        'uber': '1338px',
       },
       backgroundImage: {
         'hero-header': "url('../img/header-bg.png')",
