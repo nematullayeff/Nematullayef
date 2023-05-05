@@ -543,9 +543,6 @@ video {
 .w-full {
   width: 100%;
 }
-.w-511 {
-  width: 511px;
-}
 .max-w-base {
   max-width: 1080px;
 }
@@ -558,6 +555,9 @@ video {
 }
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 .flex-col {
   flex-direction: column;
@@ -580,17 +580,17 @@ video {
 .gap-3 {
   gap: 0.75rem;
 }
-.gap-7 {
-  gap: 1.75rem;
-}
-.gap-8 {
-  gap: 2rem;
-}
 .gap-4 {
   gap: 1rem;
 }
 .gap-6 {
   gap: 1.5rem;
+}
+.gap-7 {
+  gap: 1.75rem;
+}
+.gap-8 {
+  gap: 2rem;
 }
 .space-y-10 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
@@ -630,11 +630,11 @@ video {
 .p-3 {
   padding: 0.75rem;
 }
-.p-5 {
-  padding: 1.25rem;
-}
 .p-4 {
   padding: 1rem;
+}
+.p-5 {
+  padding: 1.25rem;
 }
 .px-2 {
   padding-left: 0.5rem;
@@ -692,6 +692,12 @@ video {
 .pt-9 {
   padding-top: 2.25rem;
 }
+.pt-1 {
+  padding-top: 0.25rem;
+}
+.pt-12 {
+  padding-top: 3rem;
+}
 .text-center {
   text-align: center;
 }
@@ -717,6 +723,10 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 .text-brad-100 {
   --tw-text-opacity: 1;
@@ -765,6 +775,10 @@ video {
     display: flex;
   }
 
+  .md\:grid {
+    display: grid;
+  }
+
   .md\:hidden {
     display: none;
   }
@@ -773,16 +787,20 @@ video {
     width: 294px;
   }
 
-  .md\:w-593 {
-    width: 593px;
-  }
-
   .md\:w-511 {
     width: 511px;
   }
 
+  .md\:w-593 {
+    width: 593px;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .md\:items-start {
@@ -798,12 +816,20 @@ video {
     padding-bottom: 60px;
   }
 
+  .md\:pt-16 {
+    padding-top: 4rem;
+  }
+
   .md\:pt-36 {
     padding-top: 9rem;
   }
 
-  .md\:pt-16 {
-    padding-top: 4rem;
+  .md\:pt-28 {
+    padding-top: 7rem;
+  }
+
+  .md\:pt-12 {
+    padding-top: 3rem;
   }
 
   .md\:text-start {
@@ -846,6 +872,10 @@ video {
 
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 
   .lg\:pt-1 {
