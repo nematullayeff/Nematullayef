@@ -20,7 +20,7 @@ document.querySelector(".menubtn").addEventListener("click", () => {
   // Wo Wir //
 
   let btn1 = document.querySelectorAll(".btn-js-down");
-let main1 = document.querySelectorAll(".main-js-down");
+  let main1 = document.querySelectorAll(".main-js-down");
 
 btn1.forEach((item, index) => {
   item.addEventListener("click", function () {
