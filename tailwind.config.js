@@ -8,7 +8,6 @@ module.exports = {
         '21': '90px',
         '258': '258px',
         '294': '294px',
-        '450': '450px',
         '271': '271px',
         '593': '593px',
         '94': '94px',
@@ -19,6 +18,7 @@ module.exports = {
       maxWidth: {
         'base': '1080px',
         'uber': '1338px',
+        '450': '450px',
       },
       backgroundImage: {
         'hero-header': "url('../img/header-bg.png')",
